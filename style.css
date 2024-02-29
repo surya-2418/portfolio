@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 61, 62); 
+}
+h1{
+    color: #edf5e1;
+}
+h3{
+    color: #c0ff00;
+}
+h2{
+    color:bisque;
+}
+p{
+    color: #d5c472;
+}
+/*navbar*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    color: #c0ff00;
+}
+.navbar a{
+    
+    color:rgb(236, 213, 221);
+}
+
+.navbar a:hover{
+    color: white;
+}
+.table {
+    color: #e2e7d5;
+}
+.navbar-nav{
+    
+    font-size: 18px; 
+}
+/* background image */
+.lead{
+    font-size:large;
+}
+/*button*/
+.btn{
+    color: rgb(179, 142, 231);
+}
+.btn:hover{
+    color: #c0ff00;
+}
+h4{
+    color: #7aa201;
+}
+
+/*progress bar */
+.progress{
+    font-size:medium;
+    height: 35px;
+    border-radius: 50px;
+    transition: all 0.5 ease;
+}
+.progress:hover{
+    transform: scale(1.1);
+}
+html, head, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#about{
+    margin-top:-50px;
+}
+.links{
+    overflow:hidden;
+    padding: 10px 0;
+}
+.links li{
+    display: inline-block;
+    list-style:none;
+    padding-right: 15px;
+}
+.links li a{
+    color: #c0ff00;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.links li a:hover{
+    color: #edf5e1;
+}
+#footer{  
+    display: block;
+    justify-content: center;
+}
+.body {
+    background-size: cover;
+}
+#home {
+    background-size: cover;
+}
+#about {
+    background-size: cover;
+}
+#skills {
+    background-size: cover;
+}
+#contact {
+    background-size: cover;
+}
